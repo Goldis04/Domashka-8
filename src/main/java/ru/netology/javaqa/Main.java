@@ -8,7 +8,8 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
-        post.subscription = "согласен";
+        post.subscription = true;
+
         post.birthday = new FormDate();
         post.birthday.day = 13;
         post.birthday.month = 6;
@@ -19,7 +20,6 @@ public class Main {
         System.out.println(post.patronymic);
         System.out.println(post.phone);
         System.out.println(post.surname);
-        System.out.println(post.subscription);
         System.out.println (post.birthday.day);
         System.out.println (post.birthday.month);
         System.out.println (post.birthday.year);
